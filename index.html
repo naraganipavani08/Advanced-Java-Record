@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7f8fa">
+<title>Advanced Java Lab Portfolio | Nargani Pavani</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="#home"><span class="brand-mark">NP</span><span>ADVANCED JAVA <small>LAB PORTFOLIO</small></span></a>
+<nav><a href="#home">Introduction</a><a href="#weeks">Weekly Records</a><a href="#about">About</a></nav>
+<button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button></header>
+<main>
+<section class="intro" id="home">
+<div class="intro-copy"><p class="eyebrow">STUDENT LABORATORY PORTFOLIO · 13 WEEKS</p>
+<h1>Learning Java,<br><span>one week at a time.</span></h1>
+<p class="lead">A collection of weekly concepts, practical procedures, code samples and outcomes for Advanced Java Programming.</p>
+<a class="primary-btn" href="#weeks">Explore all 13 weeks <span>→</span></a>
+<div class="intro-meta"><span>13 WEEKLY SECTIONS</span><span>JAVA · JDBC · SERVLETS · SPRING</span></div></div>
+<div class="profile-card"><div class="photo-frame"><img src="assets/student-photo.jpg" alt="Student portrait of Nargani Pavani"></div>
+<div class="profile-details"><p class="profile-label">SUBMITTED BY</p><h2>Nargani Pavani</h2>
+<div class="roll"><span>ROLL NUMBER</span><strong>24EU08174</strong></div><p class="course">Advanced Java Programming</p></div></div>
+</section>
+<section class="quick-info"><div><strong>13</strong><span>Weeks included</span></div><div><strong>05</strong><span>Core learning areas</span></div><div><strong>01</strong><span>Student portfolio</span></div></section>
+<section class="weeks-section" id="weeks"><div class="section-heading"><div><p class="eyebrow">THE COURSE JOURNEY</p><h2>Weekly lab records</h2></div><p>Select any week to open its full content. Use the close button or press Escape to return to the week list.</p></div>
+<div class="week-grid" id="weekGrid"></div></section>
+<section class="about" id="about"><div><p class="eyebrow">ABOUT THIS PORTFOLIO</p><h2>Organised learning.<br>Clear progress.</h2></div><p>This website presents the 13-week Advanced Java learning sequence in one place. Each week opens in a separate reading panel with its aim, topic-wise notes, complete source files, SQL, configuration files, terminal commands and result. The content is editable in <strong>script.js</strong>.</p></section>
+</main>
+<footer><span>NARGANI PAVANI · 24EU08174</span><span>ADVANCED JAVA LAB PORTFOLIO</span></footer>
+<div class="modal" id="weekModal" aria-hidden="true"><div class="backdrop" id="backdrop"></div><article class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+<button class="close-btn" id="closeBtn" aria-label="Close week content">×</button><div class="modal-head"><p class="eyebrow" id="modalWeek">WEEK 01</p><h2 id="modalTitle"></h2><p id="modalSubtitle"></p></div>
+<div class="tabs"><button class="tab active" data-tab="aim">Aim</button><button class="tab" data-tab="content">Concepts & Procedure</button><button class="tab" data-tab="code">Code / Commands</button><button class="tab" data-tab="result">Result</button></div>
+<div class="panel active" id="panelAim"></div><div class="panel" id="panelContent"></div><div class="panel" id="panelCode"></div><div class="panel" id="panelResult"></div>
+</article></div>
+<script src="script.js"></script>
+</body></html>
